@@ -15,6 +15,11 @@ Scenario: Dividing number by divisible number
     When the calculator is run with "10/2" input
     Then the output should be "5"
 
+Scenario: Dividing by zero 
+    When the calculator is run with "7/0" input
+    Then the output should be "NaN"
+
+
 Scenario Outline: Adding any two integer numbers
     When the calculator is run with "<input>" input
     Then the output should be "<output>"

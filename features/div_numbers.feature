@@ -13,6 +13,6 @@ Scenario Outline: Adding any two integer numbers
   
     Examples:
     | input | output |
-    | 2+2   | 4      |
-    | 3+4   | 7      |
+    | 2/2   | 1      |
+    | 8/4   | 2      |
 

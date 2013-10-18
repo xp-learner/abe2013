@@ -11,4 +11,5 @@ Scenario Outline: Multiplying any two integer numbers
     | input | output |
     | 2*3   | 6      |
     | 3*4   | 12     |
+    | 5*6   | 30     |
     

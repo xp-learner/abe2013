@@ -15,4 +15,5 @@ Scenario Outline: Adding any two integer numbers
     | input | output |
     | 2/2   | 1      |
     | 8/4   | 2      |
+    | 8/0   | NaN      |
 

@@ -4,6 +4,5 @@ When(/^the calculator is run with "(.*?)" input$/) do |input|
 end
 
 Then(/^the output should be "(.*?)"$/) do |expected_output|
-  expected_output.should == @output
+  @output.should == expected_output
 end
-
